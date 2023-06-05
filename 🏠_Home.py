@@ -6,13 +6,13 @@ import pandas as pd
 s = requests.Session()
 
 def load_notice():
-    return s.get('https://lostarkapi.ga/notice/').json()
+    return s.get('http://152.70.248.4/notice/').json()
 
 def load_adventure():
-    return s.get('https://lostarkapi.ga/adventureisland/').json()
+    return s.get('http://152.70.248.4/adventureisland/').json()
 
 def load_total_adventure():
-    return s.get('https://lostarkapi.ga/adventure_calendar/').json()
+    return s.get('http://152.70.248.4/adventure_calendar/').json()
 
 ut.setup()
 
