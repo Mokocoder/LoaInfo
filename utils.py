@@ -1,7 +1,7 @@
 import streamlit as st
 
 def setup():
-    st.sidebar.text('made by 모코코더')
+    st.sidebar.text('made by 모코코더#3931')
     st.sidebar.text('for streamlit test')
     st.markdown(
         """
