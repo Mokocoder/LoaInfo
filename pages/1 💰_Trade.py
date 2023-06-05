@@ -7,10 +7,10 @@ ut.setup()
 s = requests.Session()
 
 def serach_code(item):    
-    return s.get('https://lostarkapi.ga/tradeplus/'+item).json()
+    return s.get('http://152.70.248.4/tradeplus/'+item).json()
 
 def search_item(code):
-    return s.get('https://lostarkapi.ga/trade/'+str(code)).json()
+    return s.get('http://152.70.248.4/trade/'+str(code)).json()
 
 search_str = st.columns(1)[0].text_input(" ",key="search_str",placeholder="거래소에 검색할 아이템")
 with st.expander("Filter"):
