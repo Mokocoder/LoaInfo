@@ -61,4 +61,5 @@ if (total_calen['Result'] == "Success"):
                 if date[i] in str(element):
                     temp[str(element).replace(date[i]+"T","")] = (total_calen[element])
                     
+            st.caption("탭 스크롤 : Shift + 스크롤")
             st.dataframe(temp)
